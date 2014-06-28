@@ -1,0 +1,18 @@
+A program hasznalatahoz egy csv fajlt kell megadnia bemenetkent.
+
+exccel.exe [fajneve_kiterjesztessel]
+
+A kimeneti fajl neve, meg fog egyezni a bemeneti fajl nevevel,
+azonban az elejen szerepelni fog egy mod_ karakterlanc.
+
+Peldaul:
+exccel.exe demo1.csv
+Ennek a kimenete:
+demo1_mod.csv
+
+Ha ezt nem tette meg parancssori parameterben, akkor a program
+most befogja kerni ontol, hogy mely csv fajlokat kivanja hasznalni.
+
+Egymas utan tobbet is megadhat, a program egeszen egy ures sor
+leuteseig varja az on parametereit. A fajlokat a program
+melle kell helyezni.
